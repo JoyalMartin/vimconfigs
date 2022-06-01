@@ -31,6 +31,7 @@ call plug#begin()
         Plug 'jiangmiao/auto-pairs'
         Plug 'sheerun/vim-polyglot'
         Plug 'alvan/vim-closetag'
+        Plug 'vim-scripts/c.vim'
 call plug#end()
 
 
@@ -78,6 +79,7 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " rules regarding window splits
 :set splitbelow
 :set splitright
+
 
 
 
